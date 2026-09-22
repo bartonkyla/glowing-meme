@@ -7,13 +7,11 @@
 **Date:** September 21, 2026  
 **Selected Client:** Twin Cities Animal Rescue
 
-Copy these sections into the official Touchstone 3 Word template if your course requires that file.
-
 ## Section 1: GitHub Link
 
-Paste your public GitHub repository URL here:
+Paste your public GitHub repository URL here:https://github.com/bartonkyla/glowing-meme
 
-https://github.com/bartonkyla/refactored-telegram
+
 
 ## Section 2: Design Explanation
 
@@ -21,15 +19,15 @@ Respond to each prompt in 3–5 sentences. Use specific examples from your websi
 
 ### Client Alignment
 
-Twin Cities Animal Rescue is a foster-based nonprofit, so the site has to feel hopeful and trustworthy while still pointing visitors toward a concrete next step: foster, volunteer, adopt, or partner. I kept the four-page structure from Touchstone Task 2 and used one external stylesheet so Home, Services, About, and Contact look like the same organization. The brown header and footer repeat the rescue name and the same Home / Services / About / Contact list on every page, which makes the path to the interest form obvious. Cream page backgrounds and charcoal body text keep the mission, impact numbers, and program details easy to read instead of looking like a tech product or an online store. Peach is used only as an accent—on the current-page underline, card borders, and focus outlines—so action stands out without crowding the story.
+Twin Cities Animal Rescue is a foster-based nonprofit, so the site has to feel hopeful and trustworthy while still pointing visitors toward a concrete next step: foster, volunteer, adopt, or partner. I kept the four-page structure from Touchstone Task 2 and used one external stylesheet so Home, Services, About, and Contact look like the same organization. The brown header and footer repeat the rescue name and the same Home / Services / About / Contact list on every page, which makes the path to the interest form obvious and easy to navigate. I used cream page backgrounds and charcoal body text keep the mission, impact numbers, and program details easy to read instead of looking like a tech product or an online store. Peach is used only as an accent—on the current-page underline, card borders, and focus outlines, making them stand out.
 
 ### Color Palette
 
-I used four main colors in `css/style.css`: cream `#FFF8F0`, brown `#6B3E26`, peach `#D88C5A`, and charcoal `#2F2A26`. Cream is the page and card background; it feels warm and home-like, which matches a foster-based rescue better than a cold white or a generic blue canvas. Charcoal is the body text color, so paragraphs on cream stay high contrast and readable on a phone or a desktop. Brown is used for the header, footer, headings, links, and the “Send interest form” button, with cream type on those brown surfaces so navigation and the call to action remain clear. Peach marks emphasis without becoming a fifth text color: it is the left border on How You Can Help and impact cards, the underline under the current nav link, and the focus outline on form fields.
+I used four main colors in `css/style.css`: cream `#FFF8F0`, brown `#6B3E26`, peach `#D88C5A`, and charcoal `#2F2A26`. Cream is the page and card background, it feels warm and homey, which matches a foster-based rescue better than, for example, a cold white or blue canvas. Charcoal is the body text color, so paragraphs on cream stay high contrast and readable on a phone or a desktop. Brown is used for the header, footer, headings, links, and the “Send interest form” button, with cream type on those brown surfaces so navigation and the call to action remain clear. Peach marks emphasis as it is located on the left border on "How You Can Help" and impact cards, the underline under the current nav link, and the focus outline on form fields.
 
 ### Typography
 
-I used two Google Fonts families, with system fallbacks if the files do not load: Source Serif 4 for the site name, h1, h2, h3, and form legends, and Source Sans 3 for body copy, navigation, lists, fields, and the button. The serif headings feel editorial and human, which fits a community nonprofit better than a geometric display face. The sans-serif body stays clear at a small size and keeps the site to two families. Hierarchy comes from size and weight, not extra fonts: the Home h1 “A Second Chance for Twin Cities Pets” is the largest brown serif line, h2 titles such as “How You Can Help” and “Interest Form” are smaller, About values use h3 titles inside each card, and body text sits at about 1.05rem with 1.65 line-height so visitors can skim sections without reading every word.
+I used two Google Fonts families, with system fallbacks if the files do not load: Source Serif 4 for the site name, h1, h2, h3, and form legends, and Source Sans 3 for body copy, navigation, lists, fields, and the button. The serif headings feel editorial and familiar, which fits a community nonprofit. The sans-serif body stays clear at a small size and keeps the site to two font families. Hierarchy comes from size and weight, not extra fonts.The Home h1 “A Second Chance for Twin Cities Pets” is the largest brown serif line, h2 titles such as “How You Can Help” and “Interest Form” are smaller, About values use h3 titles inside each card, and body text sits at about 1.05rem with 1.65 line-height so visitors can skim sections without reading every word.
 
 ### Responsive Design
 
