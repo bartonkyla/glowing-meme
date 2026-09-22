@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twin Cities Animal Rescue | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html">
+          <img
+            class="site-logo"
+            src="media/rescue-logo.png"
+            alt="Twin Cities Animal Rescue logo"
+          />
+          <span class="site-name">Twin Cities Animal Rescue</span>
+        </a>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Volunteer and Foster Interest</h1>
+      <p class="lede">
+        Tell us how you want to help. A coordinator will reply during office
+        hours with next steps for training, a home conversation, or event
+        shifts.
+      </p>
+
+      <section>
+        <h2>Service Area</h2>
+        <p>
+          We place animals and support foster homes in Minneapolis, Saint Paul,
+          and communities within about 60 miles, including Bloomington,
+          Richfield, Roseville, Maplewood, Minnetonka, and Stillwater.
+        </p>
+        <p>
+          Transport volunteers may live a little farther out if they can reach
+          a clinic or adoption event. We cannot place fosters who have no way
+          to reach a Twin Cities veterinary partner.
+        </p>
+      </section>
+
+      <section>
+        <h2>Office Hours</h2>
+        <p>
+          Coordinators work from our Lake Street office and answer interest
+          forms during these hours. The form can be sent any time.
+        </p>
+        <ul>
+          <li>Tuesday through Friday: 10:00 a.m. to 4:00 p.m.</li>
+          <li>Saturday: 10:00 a.m. to 1:00 p.m. (adoption event weeks only)</li>
+          <li>Sunday and Monday: closed for foster check-ins by appointment</li>
+        </ul>
+        <p>
+          2841 East Lake Street, Minneapolis, MN 55406 ·
+          hello@twincitiesanimalrescue.org · 612-555-0148
+        </p>
+      </section>
+
+      <section>
+        <h2>Interest Form</h2>
+        <p>
+          Required fields must be completed before you send the form. Use a
+          phone number we can reach during weekday hours.
+        </p>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Your contact information</legend>
+            <p>
+              <label for="full-name">Full name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="full-name"
+                required
+                autocomplete="name"
+              />
+            </p>
+            <p>
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+              />
+            </p>
+            <p>
+              <label for="phone">Phone number (format: 612-555-0148)</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="612-555-0148"
+                autocomplete="tel"
+              />
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>How you want to help</legend>
+            <p>
+              <label for="interest-type">Interest type</label>
+              <select id="interest-type" name="interest-type" required>
+                <option value="">Select one</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="foster">Foster</option>
+                <option value="both">Both volunteer and foster</option>
+              </select>
+            </p>
+            <p>
+              <label for="preferred-animals">Preferred animals</label>
+              <select id="preferred-animals" name="preferred-animals" required>
+                <option value="">Select one</option>
+                <option value="dogs">Dogs</option>
+                <option value="cats">Cats</option>
+                <option value="both">Dogs and cats</option>
+                <option value="either">No preference</option>
+              </select>
+            </p>
+            <p>
+              <label for="availability">Availability</label>
+              <select id="availability" name="availability" required>
+                <option value="">Select one</option>
+                <option value="weekdays">Weekday daytime</option>
+                <option value="evenings">Weekday evenings</option>
+                <option value="weekends">Weekends</option>
+                <option value="flexible">Flexible / as needed</option>
+              </select>
+            </p>
+            <p>
+              <label for="notes">Notes about your home, pets, or experience</label>
+              <textarea
+                id="notes"
+                name="notes"
+                rows="5"
+                cols="40"
+                required
+                maxlength="800"
+              ></textarea>
+            </p>
+          </fieldset>
+
+          <p>
+            <button type="submit">Send interest form</button>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Twin Cities Animal Rescue · Minneapolis–Saint Paul, Minnesota · Foster
+        inquiries: hello@twincitiesanimalrescue.org
+      </p>
+      <p>
+        Office hours and the interest form are on
+        <a href="contact.html">Contact</a>.
+      </p>
+    </footer>
+  </body>
+</html>
