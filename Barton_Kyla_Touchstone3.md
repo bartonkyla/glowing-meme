@@ -31,7 +31,7 @@ I used two fonts, with system fallbacks if the files do not load. For example,So
 
 ### Responsive Design
 
- The CSS is mobile-first and uses Flexbox for the header, navigation,help cards, values, program sections, form, and footer. On a narrow screen those pieces stack in one column so a visitor canscroll from the rescue name to the Contact link without sideways overflow. Images and the welcome video use <code>max-width: 100%</code>and the Home <code>picture</code> element loads the smaller feature photo below  700px. One media query at <code>min-width: 48rem<code> (768px) changes the layout for larger screens. For example, the four "How You Can Help" items (Foster, Volunteer, Adopt, Partner) are full-width stacked   cards on a phone; at 768px and wider the same list becomes a two-by-two  Flexbox row, the header switches from a stacked column to a horizontal one, and the two Contact fieldsets sit side by side.
+ The CSS is mobile-first and uses Flexbox for the header, navigation,help cards, values, program sections, form, and footer. On a narrow screen those pieces stack in one column so a visitor can scroll from the rescue name to the Contact link without sideways overflow. Images and the welcome video use <code>max-width: 100%</code>and the Home <code>picture</code> element loads the smaller feature photo below  700px. One media query at <code>min-width: 48rem</code> (768px) changes the layout for larger screens. For example, the four "How You Can Help" items (Foster, Volunteer, Adopt, Partner) are full-width stacked cards on a phone; at 768px and wider the same list becomes a two-by-two  Flexbox row, the header switches from a stacked column to a horizontal one, and the two Contact fieldsets sit side by side.
 
 ### Design Challenge
 
